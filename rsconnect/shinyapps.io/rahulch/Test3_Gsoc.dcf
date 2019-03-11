@@ -1,0 +1,12 @@
+name: Test3_Gsoc
+title: Test3_Gsoc
+username:
+account: rahulch
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 781340
+bundleId: 1931266
+url: https://rahulch.shinyapps.io/Test3_Gsoc/
+when: 1552323570.50152
+asMultiple: FALSE
+asStatic: FALSE
