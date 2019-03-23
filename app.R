@@ -13,7 +13,7 @@ library("shinyWidgets")
 # occ <-occ_search(taxonKey = key,country = 'US', limit = 10000, hasCoordinate=TRUE, hasGeospatialIssue=FALSE, return = "data")
 
 #Writing Downloaded Data to csv file
-# write.csv(occ, file = "MyData.csv")
+# write.csv(occ, file = "occ.csv")
 
 #Calling csv FIle....................................
 occ <- read.csv(file="occ.csv", header=TRUE, sep=",")
