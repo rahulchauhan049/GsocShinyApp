@@ -90,7 +90,7 @@ occ <- occ[c("scientificName","Longitude", "Latitude")]
    output$table = renderDataTable(occ)
     #This part Display map using mapgrid Function
    output$map = renderPlot({
-     mapgrid(indf = occ, ptype = "records",
+     mapgrid(indf = occtemporal, ptype = "records",
              title = "distribution of Mammals",
              bbox = NA, legscale = 0, collow = "blue",
              colhigh = "red", mapdatabase = "county",
